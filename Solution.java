@@ -6,6 +6,9 @@ public class Solution {
     Scanner scanner = new Scanner(System.in);
     int numberOfTestCases = scanner.nextInt();
 
+    /**
+    * Integer.MIX_VALUE <= min <= max <= Integer.MAX_VALUE
+    */
     for (int i = 0; i < numberOfTestCases; i++) {
       int min = scanner.nextInt();
       int max = scanner.nextInt();
