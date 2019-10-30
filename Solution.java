@@ -71,6 +71,19 @@ public class Solution {
    * 4. Thus, iterating through the row of the binary representation of "n", 
    *    applying described procedure, will return the total occurence of "1s" 
    *    in the series of postive consequtive integers from "1" to "n". 
+   *     
+   * Example with 8-bit integers:
+   *     0 =>  0000 0000
+   *     1 =>  0000 0001
+   *     2 =>  0000 0010
+   *     3 =>  0000 0011
+   *     4 =>  0000 0100
+   *     5 =>  0000 0101
+   *     6 =>  0000 0110
+   *     7 =>  0000 0111
+   *     8 =>  0000 1000
+   *     9 =>  0000 1001
+   *     10 => 0000 1010
    */
   private static long onesInColumn_positiveIntegers(int input) {
 
@@ -113,6 +126,18 @@ public class Solution {
    * 3. Since all the columns that preceed the column of the leading "1" in "-n" consist of 
    *    only "1s", they all have to be added to the result obtained as per the described 
    *    procedure.
+   *
+   * Example with 8-bit integers:
+   *    -1 =>  1111 1111
+   *    -2 =>  1111 1110
+   *    -3 =>  1111 1101
+   *    -4 =>  1111 1100
+   *    -5 =>  1111 1011
+   *    -6 =>  1111 1010
+   *    -7 =>  1111 1001
+   *    -8 =>  1111 1000
+   *    -9 =>  1111 0111
+   *    -10 => 1111 0110
    */
   private static long onesInColumn_negativeIntegers(int input) {
 
