@@ -73,7 +73,7 @@ public class Solution {
    *    in the series of postive consequtive integers from "1" to "n". 
    *     
    * Example with 8-bit integers:
-   *     0 =>  0000 **0000**
+   *     0 =>  0000 0000
    *     1 =>  0000 0001
    *     2 =>  0000 0010
    *     3 =>  0000 0011
