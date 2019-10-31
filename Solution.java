@@ -73,17 +73,20 @@ public class Solution {
    *    in the series of postive consequtive integers from "1" to "n". 
    *     
    * Example with 8-bit integers:
-   *     0 =>  0000 0000
-   *     1 =>  0000 0001
-   *     2 =>  0000 0010
-   *     3 =>  0000 0011
-   *     4 =>  0000 0100
-   *     5 =>  0000 0101
-   *     6 =>  0000 0110
-   *     7 =>  0000 0111
-   *     8 =>  0000 1000
-   *     9 =>  0000 1001
-   *     10 => 0000 1010
+   *      0 =>  0000 0000
+   *      1 =>  0000 0001
+   *      2 =>  0000 0010
+   *      3 =>  0000 0011
+   *      4 =>  0000 0100
+   *      5 =>  0000 0101
+   *      6 =>  0000 0110
+   *      7 =>  0000 0111
+   *      8 =>  0000 1000
+   *      9 =>  0000 1001
+   *     10 =>  0000 1010
+   * 
+   * See file "Representing groups of 0s and 1s with colors" for better 
+   * visualization of the described correlations.
    */
   private static long onesInColumn_positiveIntegers(int input) {
 
@@ -128,16 +131,19 @@ public class Solution {
    *    procedure.
    *
    * Example with 8-bit integers:
-   *    -1 =>  1111 1111
-   *    -2 =>  1111 1110
-   *    -3 =>  1111 1101
-   *    -4 =>  1111 1100
-   *    -5 =>  1111 1011
-   *    -6 =>  1111 1010
-   *    -7 =>  1111 1001
-   *    -8 =>  1111 1000
-   *    -9 =>  1111 0111
-   *    -10 => 1111 0110
+   *     -1 =>  1111 1111
+   *     -2 =>  1111 1110
+   *     -3 =>  1111 1101
+   *     -4 =>  1111 1100
+   *     -5 =>  1111 1011
+   *     -6 =>  1111 1010
+   *     -7 =>  1111 1001
+   *     -8 =>  1111 1000
+   *     -9 =>  1111 0111
+   *    -10 =>  1111 0110
+   *   
+   * See file "Representing groups of 0s and 1s with colors" for better 
+   * visualization of the described correlations.
    */
   private static long onesInColumn_negativeIntegers(int input) {
 
